@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/galvanize-ent-se-lms/000-documentation/master/assets/000-general/version_schema.json",
+    "$id": "https://raw.githubusercontent.com/galvanize-ent-se-lms/010-version-schema/version_schema.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "title": "Galvanize Enterprise SE LMS version.json schema",
     "description": "",
