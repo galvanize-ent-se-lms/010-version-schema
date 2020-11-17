@@ -1,0 +1,51 @@
+{
+    "$id": "https://raw.githubusercontent.com/galvanize-ent-se-lms/000-documentation/master/assets/000-general/version_schema.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Galvanize Enterprise SE LMS version.json schema",
+    "description": "",
+    "type": "object",
+    "required": [
+        "version",
+        "createdOn",
+        "createdBy",
+        "lastUpdatedOn",
+        "blockTitle",
+        "blockDescription",
+        "blockStandards",
+        "prerequisites"
+    ],
+    "properties": {
+        "version": {
+            "type": "string",
+            "description": "Semantic version of this blcok"
+        },
+        "createdOn": {
+            "type": "string",
+            "description": "Date in YYYY-MM-DD format this block was created"
+        },
+        "createdBy": {
+            "type": "string",
+            "description": "User this block was created by"
+        },
+        "lastUpdatedOn": {
+            "type": "string",
+            "description": "Last date in YYYY-MM-DD format that this block was modified"
+        },
+        "blockTitle": {
+            "type": "string",
+            "description": "Friendly title of this block"
+        },
+        "blockDescription": {
+            "type": "string",
+            "description": "Friendly description of this block for use in a course catalog"
+        },
+        "blockStandards": {
+            "type": "array",
+            "description": "List of objectives within this block"
+        },
+        "prerequisites": {
+            "type": "array",
+            "description": "Prerequisite skills, knowledge, or blocks for this block"
+        }
+    }
+}
