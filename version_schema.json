@@ -31,6 +31,10 @@
             "type": "string",
             "description": "Last date in YYYY-MM-DD format that this block was modified"
         },
+        "lastModifiedBy": {
+            "type": "string",
+            "description": "Last user that modified this block"
+        },
         "blockTitle": {
             "type": "string",
             "description": "Friendly title of this block"
@@ -45,7 +49,7 @@
         },
         "prerequisites": {
             "type": "array",
-            "description": "Prerequisite skills, knowledge, or blocks for this block"
+            "description": "Prerequisite skills, knowledge, or blocks for this block (empty for none)"
         }
     }
 }
